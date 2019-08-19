@@ -45,6 +45,7 @@
     <?php
 
 
+
     if (empty(getenv("DATABASE_URL"))) {
         echo '<p>The DB does not exist</p>';
         $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
@@ -52,7 +53,11 @@
 
         $db = parse_url(getenv("DATABASE_URL"));
         $pdo = new PDO("pgsql:" . sprintf(
-            "host=ec2-107-20-230-70.compute-1.amazonaws.com;port=5432;user=eirmniiakxyqoe;password=3e07e3615308dc1f376f5cd4effa6c325e0288742205be8c3e6e0978ce59482b;dbname=d6r6sqblr6dakr",
+            "host=ec2-174-129-240-67.compute-1.amazonaws.com;
+            port=5432;
+            user=yltdxmusbntgsw;
+            password=dd568e381f91bf009a42dbf85f85febd3a81f0691f6e11320947468b80acd42d;
+            dbname=dfcbo08gn57lve",
             $db["host"],
             $db["port"],
             $db["user"],
