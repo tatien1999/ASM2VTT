@@ -26,7 +26,7 @@
       "host=ec2-184-73-169-163.compute-1.amazonaws.com;
       port=5432;
       user=oftcwkpevevbke;
-      password=dd568e381f91bf009a42dbf85f85febd3a81f0691f6e11320947468b80acd42d;
+      password=7c2e52099fb5032fd8b3029c7647157564d0b036519d79f265e3646f55821409;
       dbname=d8015s0p45ji9v",
       $db["host"],
       $db["port"],
